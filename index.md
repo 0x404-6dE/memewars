@@ -9,9 +9,8 @@
 - **SKALE** (*Ethereum-compatible* "elastic" *sidechains*, for the scaling of "dApps")
 	-  **SKALE Unlocks a category of *decentralized applications* ("dApps") that are theoretically possible (and often intuitive), especially ( websites / dApps / systems ) that promise a clear benefit over their closest [ legacy / "Web 2.0" / centralized ] *contemporary*. Ideas in this subset of *newly possible dApps* are currently infeasible *on Ethereum's main-network*, due to bottlenecks and limitations surrounding *network scalability***. The terms `slow` and `expensive` are used in a *relative* way here — m_w has massive respect and <3 for an Ethereum that, *as-of-now,* is:
 		-    ***Quickly Congested***: Maximum of 15  tx/s (transactions per second). A transaction or digital signature (or both) is behind most"Web3" interactions (sending a token, invoking a smart-contract function, etc).   *For context: Visa claimed [a capacity for 56,000 tx/s in 2015](https://usa.visa.com/dam/VCOM/download/corporate/media/visa-fact-sheet-Jun2015.pdf)*
-			
-			-   ***Slow***: Minimum time needed to confirm a transaction is ~15 seconds (*blocktime*: average time-elapsed between finalized blocks. In other words: *longest possible duration before your tx can be "trusted" by other rational actors on Ethereum, after being sent from your computer*)
-			- ***Expensive***: on-chain data-storage (permanently storing: user-content, interaction-history, mappings of Ethereum addresses to roles and balances) and computation (for example: a *for-loop* over a hypothetical 1M+ collection of user-profiles, registered in a `mapping` belonging to the smart-contracts of a given "dApp") 
+		-   ***Slow***: Minimum time needed to confirm a transaction is ~15 seconds (*blocktime*: average time-elapsed between finalized blocks. In other words: *longest possible duration before your tx can be "trusted" by other rational actors on Ethereum, after being sent from your computer*)
+		- ***Expensive***: on-chain data-storage (permanently storing: user-content, interaction-history, mappings of Ethereum addresses to roles and balances) and computation (for example: a *for-loop* over a hypothetical 1M+ collection of user-profiles, registered in a `mapping` belonging to the smart-contracts of a given "dApp") 
 
 SKALE offers a sidechain solution to this thorny issue of scalability — **in essence: a "private" group of blockchain validators, who track transactions and changes in *contract-state* as all Ethereum validators do, but only for events (transactions) relevant to a specific dApp (memewars, in this case).** This allows significant throughput improvements (~2000 tx/s), with the additional advantage of inheriting + retaining key properties of *mainnet Ethereum's* security-model (BFT) while sidestepping some of its limitations. 
 
@@ -39,6 +38,6 @@ M_W wants to give a shoutout to the following OSS:
   - Truffle-Suite
 
 
-## Further Details / Explorations / Reading
+## Further Details / Explorations / Reading (WIP)
 
 - For a more in-depth exploration of game-theoretic implications of Ethereum / the potential for large-scale incentive-alignment enforced by smart-contracts, [see Virgil Griffith's writing](https://medium.com/@virgilgr/ethereum-is-game-changing-technology-literally-d67e01a01cf8).
